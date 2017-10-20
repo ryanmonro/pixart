@@ -15,7 +15,8 @@ for (var d = 0; d < 1000; d++){
 // set color of square on click
 $('.square').on('click', function(event){
   $square = $(event.target);
-  console.log($square);
-  $square.css({"background": "green"});
+  var color = $('.brush').css("background");
+  console.log(color);
+  $square.css({"background": color});
   
 })
