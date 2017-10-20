@@ -25,10 +25,10 @@ $('#set-stamp').on('click', function(event){
 })
 
 // draw 1000 .square divs
-for (var y = 0; y < 50; y++){
+for (var y = 0; y < 25; y++){
   var outerDiv = $('<div>');
   outerDiv.addClass('square-row');
-  for (var x = 0; x < 20; x++){
+  for (var x = 0; x < 40; x++){
     var newDiv = $('<div>');
     newDiv.addClass('square');
     outerDiv.append(newDiv);
