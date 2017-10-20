@@ -13,6 +13,10 @@
   margin: 0;
 }
 
+.square-row {
+  display: block;
+}
+
 h1 {
   font-size: 48px;
   text-align: center;
