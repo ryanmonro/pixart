@@ -6,7 +6,7 @@ $('#set-color').on('click', function(event){
 })
 
 // set stamp with movie poster from OMDB 
-$('#set-brush').on('click', function(event){
+$('#set-stamp').on('click', function(event){
   event.preventDefault();
   var searchString = $('#movie-field').val();
   var options = {
